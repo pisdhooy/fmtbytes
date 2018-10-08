@@ -1,4 +1,4 @@
-# fmtbytes
+# fmtbytes [![GoDoc](https://godoc.org/github.com/pisdhooy/fmtbytes?status.svg)](https://godoc.org/github.com/pisdhooy/fmtbytes)
 A package that makes it easier to read structured bytes from a file.
 
 ## Installation
