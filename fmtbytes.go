@@ -184,3 +184,9 @@ func ReadFloat(file *os.File) float32 {
 	binary.Read(reader, binary.BigEndian, &res)
 	return res
 }
+
+/*GetFileLength gets the full size in bytes of the file given*/
+func GetFileLength(file *os.File) int64 {
+	fi, _ := file.Stat()
+	return fi.Size()
+}
